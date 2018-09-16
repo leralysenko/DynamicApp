@@ -1,0 +1,15 @@
+.new-comment {
+    .square {
+        width: 52px;
+        height: 52px;
+        margin: 5px auto 0 auto;
+        background-color: #E6E6E6;
+    }
+
+    .comment {
+        height: 70px;
+        width: 100%;
+        resize: none;
+        border: 2px solid #CCCCCC;
+    }
+}

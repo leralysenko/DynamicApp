@@ -1,0 +1,7 @@
+<div *ngFor="let item of list; let i = index" class="content">
+  <div class="item" (click)="setCurrentItem(item)">
+    <p class="name">{{item.name}}</p>
+    <span class="square">{{item.counter}}</span>
+    <button class="btn-delete" (click)="deleteTask(i)">Delete</button>
+  </div>
+</div>

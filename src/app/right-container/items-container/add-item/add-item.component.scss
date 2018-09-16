@@ -1,0 +1,29 @@
+.container {
+    padding-right: 0px;
+
+    .input-wrapper {
+        padding: 0px 15px 0px 0px;
+
+        .new-content {
+            padding: 12px;
+            border-radius: 5px;
+            height: 37px;
+            border: 2px solid #CCCCCC;
+            width: 100%;
+        }
+    }
+    
+    .btn-wrapper {
+        padding: 0px;
+
+        .btn-add-content {
+            height: 37px;
+            background-color: #27CCC0;
+            width: 100%;
+        }
+
+        .btn-add-content:disabled {
+            cursor: not-allowed;
+        }
+    }
+}

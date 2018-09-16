@@ -1,0 +1,4 @@
+<div class="right-container row">
+  <app-items-container class="col-6" [list]="list" (currentItem)="setCurrentItem($event)" (addItem)="addItem($event)" (deleteItem)="deleteItem($event)"></app-items-container>
+  <app-comments-container class="col-6" *ngIf="currentItem.name" [currentItem]="currentItem" (changeCurrentItem)="setCurrentItem($event)"></app-comments-container>
+</div>

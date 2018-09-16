@@ -1,0 +1,14 @@
+.content {
+    padding: 30px 15px 30px 20px;
+    box-shadow: 0 0 10px 0 #949494;
+    max-height: 95vh;
+    overflow-y: scroll;
+
+    .title {
+        margin-bottom: .5rem;
+        font-family: inherit;
+        font-weight: 500;
+        line-height: 1.1;
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,41 @@
+.content {
+    .item {
+        margin-top: 20px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #F2F2F2;
+        cursor: pointer;
+
+        .name {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 300px;
+            float: left;
+        }
+
+        .square {
+            width: 39px;
+            height: 20px;
+            background-color: #27CCC0;
+            color: #fff;
+            font-size: 13px;
+            text-align: center;
+            line-height: 20px;
+            margin-left: 40px;
+            padding: 3px 10px;
+            border-radius: 10%;
+        }
+
+        .btn-delete {
+            width: 97px;
+            height: 34px;
+            border: 2px solid #FF3159;
+            color: #FF3159;
+            background-color: #fff;
+            border-radius: 5px;
+            float: right;
+            display: inline-block;
+            cursor: pointer;
+        }
+    }
+}

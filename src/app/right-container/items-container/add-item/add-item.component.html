@@ -1,0 +1,8 @@
+<div class="container row">
+  <div class="col-9 input-wrapper">
+      <input type="text" class="new-content" [(ngModel)]="item.name">
+  </div>
+  <div class="col-3 btn-wrapper">
+      <button class="btn btn-info btn-add-content" [disabled]="!item.name" (click)="addTask()">Add new</button>
+  </div>
+</div>

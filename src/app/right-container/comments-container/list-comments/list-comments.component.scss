@@ -1,0 +1,18 @@
+.content {
+    border-bottom: 1px solid #F2F2F2;
+    margin-top: 13px;
+    padding: 0px 0px 10px 0px;
+
+    .square {
+        width: 52px;
+        height: 52px;
+        margin: 5px auto 0 auto;
+        background-color: #FF8A00;
+    }
+}
+
+.content:nth-child(2n) {
+    .square {
+        background-color: #47568C;
+    }
+}

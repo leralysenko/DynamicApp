@@ -1,0 +1,5 @@
+<div class="content">
+  <h2 class="title">Items</h2>
+  <app-add-item (addItem)="addTask($event)"></app-add-item>
+  <app-list-items [list]="list" (deleteItem)="deleteTask($event)" (currentItem)="setCurrentItem($event)"></app-list-items>
+</div>

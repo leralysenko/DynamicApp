@@ -1,0 +1,5 @@
+<div class="content">
+    <h2 class="title">{{currentItem.name}}</h2>
+    <app-list-comments [commentsList]="currentItem.comments"></app-list-comments>
+    <app-add-comment (addComment)="addComment($event)"></app-add-comment>
+  </div>
